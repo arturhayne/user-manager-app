@@ -1,29 +1,16 @@
-# user-manager-app
+# User Manager App
 
-This template should help get you started developing with Vue 3 in Vite.
+This application is a user management system built with Vue.js, Axios, and SweetAlert. The primary purpose of this application is to allow users to create and manage user accounts within different populations. It features dynamic form fields based on the selected population and includes error handling to display meaningful messages to users.
 
-## Recommended IDE Setup
+## Features
+ - Population Selection: Users can select a population from a dropdown menu, which dynamically updates the form fields based on the selected population.
+ - Dynamic Form Fields: The form fields change based on the selected population, ensuring that users provide the necessary information for each population type.
+ - Form Submission: Users can submit the form to create a new user within the selected population. The form includes fields for username, password, and any additional fields required by the population.
+ - Error Handling: The application uses SweetAlert to display error messages. If the submission fails, the user is informed about the specific errors (e.g., non-unique email or employee ID) with detailed messages.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Setup
+1. docker-compose up -d
+2. docker exec -it vite_docker sh
+3. npm i && npm run dev
+4. url: http://localhost:8071/
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
