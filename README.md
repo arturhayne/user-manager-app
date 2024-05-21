@@ -19,7 +19,7 @@ The back end project can be found in https://github.com/arturhayne/user-manager
 
 ## Demo
 
-[Wath the demo](https://drive.google.com/file/d/1rOEmYc8S1bqGIA356dqThk2XDUFHHVA7/preview)
+[Watch the demo](https://drive.google.com/file/d/1rOEmYc8S1bqGIA356dqThk2XDUFHHVA7/preview)
 
 In the video we can see the email is unique across Employee and External Contractors Population, but not in Freelancer population.
 
